@@ -1,0 +1,375 @@
+.font-lacquer{
+  font-family: 'Lacquer', cursive;
+}
+.font-dosis{
+  font-family: 'Dosis', sans-serif;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: 'Dosis', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.g{
+  font-family: 'Source Serif Pro', serif;
+}
+p{
+  font-family: 'Source Serif Pro', serif;
+}
+.scrl {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.scrl::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+.article-row-1{
+  height: 600px;
+  background-image: url(../img/thx.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.article-header{
+  text-align: center;
+  margin: 50px 0;
+}
+.ah hr{
+  display: block;
+  width: 100px;
+  margin: auto;
+  color: red;
+  background: red;
+}
+.ah h3{
+  color: red;
+  font-size: 25px;
+}
+#name{
+  display: block;
+  margin: 0;
+  font-size: 20px;
+}
+#bbc{
+  display: block;
+  font-size: 11px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Lacquer', cursive;
+}
+#bbc i{
+  color: red;
+}
+
+.article p{
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 120%;
+}
+@media screen and (max-width: 830px)
+and (min-width: 0px){
+  .article p{
+    width: 90%;
+  }
+}
+#p-red{
+  color: red;
+}
+.p-large{
+  font-size: 20px;
+}
+
+.ig-art{
+  margin-bottom: 30px;
+}
+.ig-art blockquote{
+  margin: auto!important;
+}
+
+#youtube{
+  width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+@media screen and (max-width: 600px)
+and (min-width: 0px){
+  #youtube{
+    width: 100%;
+    text-align: center;
+  }
+}
+.follow{
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+  text-decoration: none;
+  background: red;
+  color: #fff!important;
+  width: 100px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+.soundcloud-bx{
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+.soundcloud{
+  margin-top: 20px;
+  border: 3px solid red;
+}
+@media screen and (max-width: 600px)
+and (min-width: 0px){
+  .soundcloud{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.wyt{
+  margin: 30px auto;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+  border-top: 1px solid red;
+  overflow: hidden;
+  height: 500px;
+}
+.wyt #notice{
+  font-size: 100%;
+  display: block;
+  margin-top: 10px;
+  width: 90%;
+  background: #ad2121;
+  margin: auto;
+  color: #fff;
+  font-weight: bold;
+  font-family: monospace;
+}
+.wyt-img{
+  background: red;
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url(../img/thx-2.png);
+  background-size: auto 100%;
+  z-index: 99;
+}
+
+.wyt-persons{
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: rgba(255,255,255,0.8);
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+#wyt-p ul{
+}
+#wyt-p li{
+  width: 95%;
+  height: auto;
+  min-height: 78px;
+  margin: auto;
+  position: relative;
+  text-align: left;
+  list-style: none;
+  border-bottom: 0.5px solid #000;
+  overflow: hidden;
+  margin-top: 5px;
+}
+#comments{
+  overflow-y: auto;
+  position: absolute;
+  left: 0;
+  height: 93%;
+  width: 80%;
+  font-family: 'Source Serif Pro', serif;
+}
+#comments-profile{
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 19%;
+  background-position: center;
+  background-size: 86px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cp-1{
+  background-image: url(../../leads/boy2.jpg);
+}
+.cp-2{
+  background-image: url(../../leads/boy.jpg);
+}
+.cp-3{
+  background-image: url(../../leads/boy1.jpg);
+}
+.cp-4{
+  background-image: url(../../leads/boy3.jpg);
+}
+.bbc-promo{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 144px;
+  text-align: left;
+  font-size: 90%;
+}
+.bbc-promo p{
+  width: 95%!important;
+  margin: auto;
+}
+#promo span{
+  display: inline-block;
+}
+#promo .p-red{
+  color: red;
+  font-size: 106%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 375px)
+and (min-width: 0px){
+  .wyt{
+    height: 738px!important;
+  }
+  .wyt-img{
+    top: 78px!important;
+    bottom: none!important;
+    background-repeat: no-repeat!important;
+    background-size: 100%!important;
+    width: 100%;
+  }
+  .wyt-persons{
+    height: 484px!important;
+    width: 100%;
+    bottom: -107px!important;
+  }
+  .bbc-promo{
+    height: 219px!important;
+  }
+}
+@media screen and (max-width: 366px)
+and (min-width: 0px){
+  .wyt{
+    height: 755px!important;
+  }
+  .wyt-img{
+    top: 94px!important;
+  }
+  .bbc-promo{
+    bottom: 6px!important;
+  }
+}
+
+.article-row-2{
+  background: red;
+  height: 600px;
+  background-image: url(../img/thx.png);
+  background-size: 100% 658px;
+  background-repeat: no-repeat;
+  background-position-x: 39%;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 900px)
+and (min-width: 0px){
+  .article-row-2{
+    background-size: auto 600px!important;
+  }
+}
+
+.contents{
+  margin-top: 35px;
+  overflow: hidden;
+  padding: 5%;
+}
+.cts{
+  height: 350px;
+  width: 44%;
+  position: relative;
+  background-size: auto 351px;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  overflow: hidden;
+  margin: 3%;
+  cursor: pointer;
+}
+.cts h3{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background: black;
+  color: #fff;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+.cts #p-red{
+  text-transform: uppercase;
+}
+#tootie-cts{
+  background-image: url(../../tootie-raww/img/tootie-raw.jpg);
+}
+#mosey-cts{
+  background-image: url(../../lil-mosey/img/thx.png);
+}
+#thehxliday-cts{
+  background-image: url(../../theHxliday/img/thx.png);
+}
+#balenciaga-cts{
+  background-image: url(../../balenciaga/img/thx.png);
+}
+
+
+
+.subscribe{
+  text-align: center;
+}
+.subscribe label{
+  color: #000;
+  font-size: 120%;
+}
+.subscribe input{
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-bottom: 2.5px solid red;
+  width: 200px;
+}
+.subscribe button{
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  border: none;
+  background: red;
+  color: #fff;
+  width: 200px;
+  padding: 5px;
+  cursor: pointer;
+}
+.subscribe button:hover{
+  background: #000;
+  color: #fff;
+}
