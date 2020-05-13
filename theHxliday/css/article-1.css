@@ -302,7 +302,7 @@ and (min-width: 0px){
 .contents{
   margin-top: 35px;
   overflow: hidden;
-  padding: 5%;
+  padding: 5% 0px;
 }
 .cts{
   height: 350px;
@@ -315,6 +315,12 @@ and (min-width: 0px){
   overflow: hidden;
   margin: 3%;
   cursor: pointer;
+}
+@media screen and (max-width: 400px)
+and (min-width: 0px){
+  .cts{
+    width: 95%;
+  }
 }
 .cts h3{
   position: absolute;
